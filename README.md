@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install jqrepl
+$ omf install https://github.com/jihchi/jq-fish-plugin.git
 ```
 
 
@@ -30,8 +30,8 @@ $ jqrepl
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/plugin-jqrepl/graphs/contributors
+[author]:         https://github.com/jihchi
+[contributors]:   https://github.com/jihchi/jq-fish-plugin/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
