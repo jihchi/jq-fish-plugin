@@ -9,6 +9,7 @@
 
 <br/>
 
+[![asciicast](https://asciinema.org/a/d4pqBPtEkiDmm1sZp5qnVlLdC.svg)](https://asciinema.org/a/d4pqBPtEkiDmm1sZp5qnVlLdC)
 
 ## Install
 
