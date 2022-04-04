@@ -20,22 +20,22 @@ $ omf install https://github.com/jihchi/jq-fish-plugin.git
 
 ## Usage
 
-### From File
 ```fish
+# read from a file
 $ jqrepl [file]
-```
 
-### stdin
-
-```fish
+# read from stdin
 $ cat <json> | jqrepl
 ```
 
-### Example
+## Example
 
 ```fish
 $ curl -s pie.dev/json | jqrepl
 ```
+
+<img width="1440" alt="example" src="https://user-images.githubusercontent.com/87983/161599747-0882aff5-170a-4355-8395-a071009db450.png">
+
 
 # License
 
