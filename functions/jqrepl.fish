@@ -15,8 +15,13 @@ function jqrepl
     return 1
   end
 
-  # based on https://github.com/stedolan/jq/issues/243#issuecomment-880152966
-  jq -r 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique | sort | map("." + .) | .[]' $input | \
+  # based on https://github.com/reegnz/jq-zsh-plugin/blob/master/bin/jq-paths
+  jq -r '
+  [
+    path(..) | map(select(type == "string") // "[]")
+    | join(".")
+  ] | sort | unique | .[] | split(".[]") | join("[]") | "." + .
+  ' $input | \
     fzf \
       --preview "jq --color-output {q} $input" \
       --preview-window "down,90" \
