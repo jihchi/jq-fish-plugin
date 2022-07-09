@@ -36,11 +36,17 @@ $ curl -s pie.dev/json | jqrepl
 
 <img width="1440" alt="example" src="https://user-images.githubusercontent.com/87983/161599747-0882aff5-170a-4355-8395-a071009db450.png">
 
-
 # License
 
 [MIT][mit] © [Jihchi Lee][author] et [al][contributors]
 
+## Contributors
+
+Many thanks for your help!
+
+<a href="https://github.com/jihchi/jq-fish-plugin/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=jihchi/jq-fish-plugin" />
+</a>
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/jihchi
