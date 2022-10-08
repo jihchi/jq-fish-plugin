@@ -4,4 +4,3 @@
 # * $package       package name
 # * $path          package path
 # * $dependencies  package dependencies
-set branch "main"
