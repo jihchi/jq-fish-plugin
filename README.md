@@ -11,6 +11,11 @@
 
 [![asciicast](https://asciinema.org/a/d4pqBPtEkiDmm1sZp5qnVlLdC.svg)](https://asciinema.org/a/d4pqBPtEkiDmm1sZp5qnVlLdC)
 
+## Prerequisities
+
+- [jq](https://stedolan.github.io/jq)
+- [fzf](https://github.com/junegunn/fzf)
+
 ## Install
 
 ```fish
